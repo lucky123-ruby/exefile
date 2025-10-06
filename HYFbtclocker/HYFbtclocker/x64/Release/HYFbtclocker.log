@@ -1,0 +1,178 @@
+﻿  HYFbtclocker.cpp
+C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(222,5): error C2143: 语法错误: 缺少“}”(在“(”的前面)
+  (编译源文件“HYFbtclocker.cpp”)
+  
+C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(222,5): error C2059: 语法错误:“常数”
+  (编译源文件“HYFbtclocker.cpp”)
+  
+C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(223,1): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+  (编译源文件“HYFbtclocker.cpp”)
+  
+C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(223,1): error C2059: 语法错误:“}”
+  (编译源文件“HYFbtclocker.cpp”)
+  
+C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(239,24): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+  (编译源文件“HYFbtclocker.cpp”)
+  
+C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(239,5): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+  (编译源文件“HYFbtclocker.cpp”)
+  
+C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(239,40): error C2238: 意外的标记位于“;”之前
+  (编译源文件“HYFbtclocker.cpp”)
+  
+C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(244,24): error C2614: “AsyncIOContext”: 非法的成员初始化:“encryptContext”不是基或成员
+  (编译源文件“HYFbtclocker.cpp”)
+  
+C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(778,21): error C2679: 二元“=”: 没有找到接受“overloaded-function”类型的右操作数的运算符(或没有可接受的转换)
+  (编译源文件“HYFbtclocker.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\functional(1147,15):
+      可能是“std::function<void (bool,DWORD)> &std::function<void (bool,DWORD)>::operator =(std::nullptr_t) noexcept”
+          C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(778,21):
+          “std::function<void (bool,DWORD)> &std::function<void (bool,DWORD)>::operator =(std::nullptr_t) noexcept”: 无法将参数 2 从“void (__cdecl *)(AsyncIOContext *,bool,DWORD)”转换为“std::nullptr_t”
+              C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(778,33):
+              nullptr 只能转换成指针或句柄类型
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\functional(1126,15):
+      或    “std::function<void (bool,DWORD)> &std::function<void (bool,DWORD)>::operator =(std::function<void (bool,DWORD)> &&) noexcept”
+          C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(778,21):
+          “std::function<void (bool,DWORD)> &std::function<void (bool,DWORD)>::operator =(std::function<void (bool,DWORD)> &&) noexcept”: 无法将参数 2 从“void (__cdecl *)(AsyncIOContext *,bool,DWORD)”转换为“std::function<void (bool,DWORD)> &&”
+              C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(778,33):
+              原因如下: 无法从“overloaded-function”转换为“std::function<void (bool,DWORD)>”
+              C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(778,33):
+              “std::function<void (bool,DWORD)>::function”: 没有重载函数可以转换所有参数类型
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\functional(1081,5):
+                  可能是“std::function<void (bool,DWORD)>::function(std::nullptr_t) noexcept”
+                      C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(778,33):
+                      “std::function<void (bool,DWORD)>::function(std::nullptr_t) noexcept”: 无法将参数 1 从“void (__cdecl *)(AsyncIOContext *,bool,DWORD)”转换为“std::nullptr_t”
+                          C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(778,33):
+                          nullptr 只能转换成指针或句柄类型
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\functional(1088,5):
+                  或    “std::function<void (bool,DWORD)>::function(_Fx &&)”
+                  C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(778,33):
+                  尝试匹配参数列表“(overloaded-function)”时
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\functional(1110,15):
+      或    “std::function<void (bool,DWORD)> &std::function<void (bool,DWORD)>::operator =(const std::function<void (bool,DWORD)> &)”
+          C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(778,21):
+          “std::function<void (bool,DWORD)> &std::function<void (bool,DWORD)>::operator =(const std::function<void (bool,DWORD)> &)”: 无法将参数 2 从“void (__cdecl *)(AsyncIOContext *,bool,DWORD)”转换为“const std::function<void (bool,DWORD)> &”
+              C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(778,33):
+              原因如下: 无法从“overloaded-function”转换为“const std::function<void (bool,DWORD)>”
+              C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(778,33):
+              “std::function<void (bool,DWORD)>::function”: 没有重载函数可以转换所有参数类型
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\functional(1081,5):
+                  可能是“std::function<void (bool,DWORD)>::function(std::nullptr_t) noexcept”
+                      C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(778,33):
+                      “std::function<void (bool,DWORD)>::function(std::nullptr_t) noexcept”: 无法将参数 1 从“void (__cdecl *)(AsyncIOContext *,bool,DWORD)”转换为“std::nullptr_t”
+                          C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(778,33):
+                          nullptr 只能转换成指针或句柄类型
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\functional(1088,5):
+                  或    “std::function<void (bool,DWORD)>::function(_Fx &&)”
+                  C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(778,33):
+                  尝试匹配参数列表“(overloaded-function)”时
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\functional(1153,15):
+      或    “std::function<void (bool,DWORD)> &std::function<void (bool,DWORD)>::operator =(std::reference_wrapper<_Fx>) noexcept”
+          C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(778,21):
+          “std::function<void (bool,DWORD)> &std::function<void (bool,DWORD)>::operator =(std::reference_wrapper<_Fx>) noexcept”: 无法从“void (AsyncIOContext *,bool,DWORD)”推导出“std::reference_wrapper<_Fx>”的 模板 参数
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\functional(1135,15):
+      或    “std::function<void (bool,DWORD)> &std::function<void (bool,DWORD)>::operator =(_Fx &&)”
+          C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(778,21):
+          “std::function<void (bool,DWORD)> &std::function<void (bool,DWORD)>::operator =(_Fx &&)”: 无法推导“__formal”的 模板 参数
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\functional(1134,92):
+              “_Enable_if_callable_t”: 不是“std::_Func_class<_Ret,bool,DWORD>”的任何直接或间接基类的成员
+          with
+          [
+              _Ret=void
+          ]
+      C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(778,21):
+      尝试匹配参数列表“(std::function<void (bool,DWORD)>, overloaded-function)”时
+  
+C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(786,60): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+  (编译源文件“HYFbtclocker.cpp”)
+  
+C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(982,24): error C2679: 二元“=”: 没有找到接受“overloaded-function”类型的右操作数的运算符(或没有可接受的转换)
+  (编译源文件“HYFbtclocker.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\functional(1147,15):
+      可能是“std::function<void (bool,DWORD)> &std::function<void (bool,DWORD)>::operator =(std::nullptr_t) noexcept”
+          C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(982,24):
+          “std::function<void (bool,DWORD)> &std::function<void (bool,DWORD)>::operator =(std::nullptr_t) noexcept”: 无法将参数 2 从“void (__cdecl *)(AsyncIOContext *,bool,DWORD)”转换为“std::nullptr_t”
+              C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(982,36):
+              nullptr 只能转换成指针或句柄类型
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\functional(1126,15):
+      或    “std::function<void (bool,DWORD)> &std::function<void (bool,DWORD)>::operator =(std::function<void (bool,DWORD)> &&) noexcept”
+          C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(982,24):
+          “std::function<void (bool,DWORD)> &std::function<void (bool,DWORD)>::operator =(std::function<void (bool,DWORD)> &&) noexcept”: 无法将参数 2 从“void (__cdecl *)(AsyncIOContext *,bool,DWORD)”转换为“std::function<void (bool,DWORD)> &&”
+              C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(982,36):
+              原因如下: 无法从“overloaded-function”转换为“std::function<void (bool,DWORD)>”
+              C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(982,36):
+              “std::function<void (bool,DWORD)>::function”: 没有重载函数可以转换所有参数类型
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\functional(1081,5):
+                  可能是“std::function<void (bool,DWORD)>::function(std::nullptr_t) noexcept”
+                      C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(982,36):
+                      “std::function<void (bool,DWORD)>::function(std::nullptr_t) noexcept”: 无法将参数 1 从“void (__cdecl *)(AsyncIOContext *,bool,DWORD)”转换为“std::nullptr_t”
+                          C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(982,36):
+                          nullptr 只能转换成指针或句柄类型
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\functional(1088,5):
+                  或    “std::function<void (bool,DWORD)>::function(_Fx &&)”
+                  C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(982,36):
+                  尝试匹配参数列表“(overloaded-function)”时
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\functional(1110,15):
+      或    “std::function<void (bool,DWORD)> &std::function<void (bool,DWORD)>::operator =(const std::function<void (bool,DWORD)> &)”
+          C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(982,24):
+          “std::function<void (bool,DWORD)> &std::function<void (bool,DWORD)>::operator =(const std::function<void (bool,DWORD)> &)”: 无法将参数 2 从“void (__cdecl *)(AsyncIOContext *,bool,DWORD)”转换为“const std::function<void (bool,DWORD)> &”
+              C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(982,36):
+              原因如下: 无法从“overloaded-function”转换为“const std::function<void (bool,DWORD)>”
+              C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(982,36):
+              “std::function<void (bool,DWORD)>::function”: 没有重载函数可以转换所有参数类型
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\functional(1081,5):
+                  可能是“std::function<void (bool,DWORD)>::function(std::nullptr_t) noexcept”
+                      C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(982,36):
+                      “std::function<void (bool,DWORD)>::function(std::nullptr_t) noexcept”: 无法将参数 1 从“void (__cdecl *)(AsyncIOContext *,bool,DWORD)”转换为“std::nullptr_t”
+                          C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(982,36):
+                          nullptr 只能转换成指针或句柄类型
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\functional(1088,5):
+                  或    “std::function<void (bool,DWORD)>::function(_Fx &&)”
+                  C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(982,36):
+                  尝试匹配参数列表“(overloaded-function)”时
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\functional(1153,15):
+      或    “std::function<void (bool,DWORD)> &std::function<void (bool,DWORD)>::operator =(std::reference_wrapper<_Fx>) noexcept”
+          C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(982,24):
+          “std::function<void (bool,DWORD)> &std::function<void (bool,DWORD)>::operator =(std::reference_wrapper<_Fx>) noexcept”: 无法从“void (AsyncIOContext *,bool,DWORD)”推导出“std::reference_wrapper<_Fx>”的 模板 参数
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\functional(1135,15):
+      或    “std::function<void (bool,DWORD)> &std::function<void (bool,DWORD)>::operator =(_Fx &&)”
+          C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(982,24):
+          “std::function<void (bool,DWORD)> &std::function<void (bool,DWORD)>::operator =(_Fx &&)”: 无法推导“__formal”的 模板 参数
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\functional(1134,92):
+              “_Enable_if_callable_t”: 不是“std::_Func_class<_Ret,bool,DWORD>”的任何直接或间接基类的成员
+          with
+          [
+              _Ret=void
+          ]
+      C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\crypt.h(982,24):
+      尝试匹配参数列表“(std::function<void (bool,DWORD)>, overloaded-function)”时
+  
+C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\start.h(271,35): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+  (编译源文件“HYFbtclocker.cpp”)
+  
+C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\tool.h(136,37): warning C4244: “=”: 从“DWORD”转换到“wchar_t”，可能丢失数据
+  (编译源文件“HYFbtclocker.cpp”)
+  
+C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\beadmin.h(296,47): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“HYFbtclocker.cpp”)
+  
+C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\beadmin.h(299,25): warning C4305: “=”: 从“double”到“float”截断
+  (编译源文件“HYFbtclocker.cpp”)
+  
+C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\beadmin.h(302,53): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“HYFbtclocker.cpp”)
+  
+C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\beadmin.h(305,46): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  (编译源文件“HYFbtclocker.cpp”)
+  
+C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\networkscan.h(395,44): warning C4267: “参数”: 从“size_t”转换到“const _Ty”，可能丢失数据
+C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\networkscan.h(395,44): warning C4267:         with
+C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\networkscan.h(395,44): warning C4267:         [
+C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\networkscan.h(395,44): warning C4267:             _Ty=long
+C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\networkscan.h(395,44): warning C4267:         ]
+  (编译源文件“HYFbtclocker.cpp”)
+  
+C:\Users\胡剑卓\Desktop\mypanel-master\HYFbtclocker\networkscan.h(521,24): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  (编译源文件“HYFbtclocker.cpp”)
+  
